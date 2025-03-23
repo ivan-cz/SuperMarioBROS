@@ -1,11 +1,22 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=703b465bce3354864b7a41a43c0dd9b3&amp;type=3#MenuPrincipal" />
-    <engine:VisualElement name="Menu" class="menu" style="flex-grow: 1;">
+    <engine:VisualElement name="MenuPrincipal" class="menu" style="flex-grow: 1; display: flex;">
         <engine:Label text="Tarea en Unity" name="Titulo" class="titulo" />
         <engine:VisualElement name="Selector" enabled="true" class="selector" style="flex-grow: 0; justify-content: space-around;">
             <engine:Button text="Jugar" name="BotonJugar" class="button" />
             <engine:Button text="Ayuda" name="BotonAyuda" class="button" />
             <engine:Button text="Créditos" name="BotonCreditos" class="button" />
+        </engine:VisualElement>
+        <engine:VisualElement name="BordeAbajo" class="bordeAbajo" style="flex-grow: 1;">
+            <engine:Button text="X" name="BotonSalirJuego" class="botonSalirJuego" />
+            <engine:Label text="Iván Carrillo Zardaín (A01752903)" name="TextoAutor" class="autor" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="MenuAyuda" class="menu" style="flex-grow: 1; display: none;">
+        <engine:Label text="Tarea en Unity" name="Titulo" class="titulo" />
+        <engine:VisualElement name="Selector" enabled="true" class="selector2" style="flex-grow: 0;">
+            <engine:Button text="X" name="BotonSalirMenu" class="botonSalirMenu" />
+            <engine:Label text="Lorem Ipsum&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tellus lorem, cursus ut est et, luctus mollis augue. Nunc mauris lacus, ultrices at risus sit amet, maximus auctor nulla. Duis dui leo, consequat at mattis ac, blandit sed massa. Fusce consectetur ornare laoreet. Praesent gravida commodo libero, vel maximus neque tristique ac. Morbi quam urna, tincidunt quis commodo sit amet, facilisis in sapien. Donec tempus eu ipsum sed malesuada.&#10;&#10;" name="HelpText" class="helpText" />
         </engine:VisualElement>
         <engine:VisualElement name="BordeAbajo" class="bordeAbajo" style="flex-grow: 1;">
             <engine:Button text="X" name="BotonSalirJuego" class="botonSalirJuego" />

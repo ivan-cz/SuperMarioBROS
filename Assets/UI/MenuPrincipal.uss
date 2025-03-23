@@ -108,3 +108,40 @@
 .button:hover {
     scale: 1.1 1.1;
 }
+
+.botonSalirMenu {
+    align-self: flex-end;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.helpText {
+    font-size: 30px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+.selector2 {
+    width: 60%;
+    align-content: center;
+    height: 69%;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    justify-content: flex-start;
+    background-color: rgba(65, 65, 65, 0.47);
+}
