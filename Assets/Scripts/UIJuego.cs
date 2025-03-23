@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
+
+//Codigo para boton de regreso al menu principal dentro del juego de Mario
+
 public class UIJuego : MonoBehaviour
 {
 

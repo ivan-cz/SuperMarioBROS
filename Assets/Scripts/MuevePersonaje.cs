@@ -1,10 +1,12 @@
+// Iván Carrillo Zardaín A01752903
+
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class MuevePersonaje : MonoBehaviour
 {   
 
-    // transform, gameObject
+    
 
     // Velocidades 
     public float velocidadX;
@@ -12,7 +14,7 @@ public class MuevePersonaje : MonoBehaviour
     [SerializeField]
     private float velocidadY;
 
-    // Necesito que se mueva
+    
     private Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,7 +25,7 @@ public class MuevePersonaje : MonoBehaviour
     }
 
 
-    // FixedUpdate is called to update the object in a fixed frame rate
+   // Función que se actualiza en cada frame para mover el personaje
     void FixedUpdate()
     {
         float movHorizontal = Input.GetAxis("Horizontal");

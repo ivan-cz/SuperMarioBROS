@@ -1,3 +1,5 @@
+// Iván Carrillo Zardaín A01752903
+
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
@@ -14,7 +16,6 @@ public class MenuController : MonoBehaviour
     private Button salirMenu;
     private VisualElement menuPrincipal;
     private VisualElement menuAyuda;
-    private VisualElement contenedorContenido;
     
     
 
@@ -30,11 +31,11 @@ public class MenuController : MonoBehaviour
         salirMenu = root.Q<Button>("BotonSalirMenu");
         salirMenu.RegisterCallback<ClickEvent>(SalirMenu);
 
-        // Inicializar el boton de salir del juego y el callback a la función de salir del juego
+        
         botonSalirJuego = root.Q<Button>("BotonSalirJuego");
         botonSalirJuego.RegisterCallback<ClickEvent>(SalirJuego);
 
-        // Inicializar el boton de iniciar el juego
+        
         botonIniciarJuego = root.Q<Button>("BotonJugar");
         botonIniciarJuego.RegisterCallback<ClickEvent>(IniciarJuego);
 
