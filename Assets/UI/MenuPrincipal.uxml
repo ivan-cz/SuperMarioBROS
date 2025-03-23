@@ -2,7 +2,7 @@
     <Style src="project://database/Assets/UI/MenuPrincipal.uss?fileID=7433441132597879392&amp;guid=703b465bce3354864b7a41a43c0dd9b3&amp;type=3#MenuPrincipal" />
     <engine:VisualElement name="Menu" class="menu" style="flex-grow: 1;">
         <engine:Label text="Tarea en Unity" name="Titulo" class="titulo" />
-        <engine:VisualElement name="Selector" class="selector" style="flex-grow: 0;">
+        <engine:VisualElement name="Selector" enabled="true" class="selector" style="flex-grow: 0; justify-content: space-around;">
             <engine:Button text="Jugar" name="BotonJugar" class="button" />
             <engine:Button text="Ayuda" name="BotonAyuda" class="button" />
             <engine:Button text="Créditos" name="BotonCreditos" class="button" />

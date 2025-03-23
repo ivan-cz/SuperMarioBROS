@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuAyuda.uss?fileID=7433441132597879392&amp;guid=22c97f2b31dcf443baf76cd6ab7895c1&amp;type=3#MenuAyuda" />
+    <engine:VisualElement name="Menu" class="menu" style="flex-grow: 1;">
+        <engine:Label text="Tarea en Unity" name="Titulo" class="titulo" />
+        <engine:VisualElement name="Selector" enabled="true" class="selector" style="flex-grow: 0;">
+            <engine:Button text="X" name="BotonSalirMenu" class="botonSalirMenu" />
+            <engine:Label text="Lorem Ipsum&#10;&#10;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat metus massa, id porta lectus imperdiet ornare. Suspendisse potenti. Cras vitae mauris quis nisi vestibulum placerat ut maximus ligula. Pellentesque vel sodales sapien. Morbi venenatis efficitur odio, at sodales massa blandit non. Sed non arcu interdum, fringilla massa et, ultrices nibh. Nam non dignissim leo.&#10;&#10;" name="HelpText" class="helpText" />
+        </engine:VisualElement>
+        <engine:VisualElement name="BordeAbajo" class="bordeAbajo" style="flex-grow: 1;">
+            <engine:Button text="X" name="BotonSalirJuego" class="botonSalirJuego" />
+            <engine:Label text="Iván Carrillo Zardaín (A01752903)" name="TextoAutor" class="autor" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
